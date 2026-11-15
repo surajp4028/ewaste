@@ -76,6 +76,8 @@ function db(): ?PDO {
 
 function file_read_json(string $name, $default = []) {
     $f = DATA_DIR . '/' . $name;
+    // Live settings fall back to the committed defaults on a fresh install
+    if (!is_file($f) && $name === 'site.json') $f = DATA_DIR . '/site.default.json';
     if (!is_file($f)) return $default;
     $c = @file_get_contents($f);
     $d = json_decode((string)$c, true);

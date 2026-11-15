@@ -1,0 +1,17 @@
+# Secrets — create on the server from api/config.example.php
+api/config.local.php
+ADMIN-LOGIN.txt
+
+# Live data written by the site/admin (leads, settings, rate limits)
+data/*
+!data/.htaccess
+!data/site.default.json
+
+# Admin uploads (certificates, logos, gallery)
+uploads/*
+!uploads/.htaccess
+
+# Local tooling
+.claude/
+.DS_Store
+*.log

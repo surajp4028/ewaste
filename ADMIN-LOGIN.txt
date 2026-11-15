@@ -1,6 +1,0 @@
-E-WasteBiz admin login (local note — do not upload)
-URL: https://ewastebiz.in/admin/
-Username: admin
-Password: EWB-6a394f-747871
-
-Change it from Admin > Settings after first login.
