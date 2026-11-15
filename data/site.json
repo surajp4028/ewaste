@@ -1,0 +1,123 @@
+{
+  "phone": "+91 96439 47123",
+  "phone_raw": "+919643947123",
+  "whatsapp": "919643947123",
+  "email": "info@ewastebiz.in",
+  "email_alt": "ewastebizenterprises@gmail.com",
+  "address": "Delhi-NCR, India",
+  "hours": "Mon – Sat, 9:30 AM – 7:00 PM",
+  "announcement": "Now buying bulk IT scrap across Delhi-NCR",
+  "whatsapp_message": "Hi E-WasteBiz, I want to sell/recycle e-waste. Please share a quote.",
+  "stats": [
+    {
+      "value": "5",
+      "suffix": "",
+      "label": "NCR cities covered"
+    },
+    {
+      "value": "24",
+      "suffix": "h",
+      "label": "Pickup response time"
+    },
+    {
+      "value": "100",
+      "suffix": "%",
+      "label": "GST-invoiced deals"
+    },
+    {
+      "value": "0",
+      "suffix": "",
+      "label": "Waste sent to landfill"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sample Client 1",
+      "role": "IT Manager",
+      "company": "Company name",
+      "rating": "5",
+      "published": "No",
+      "text": "[SAMPLE — replace with a real review] The team picked up 60 old laptops and two servers within two days, wiped every drive and shared the certificate the same week."
+    },
+    {
+      "name": "Sample Client 2",
+      "role": "Admin Head",
+      "company": "Company name",
+      "rating": "5",
+      "published": "No",
+      "text": "[SAMPLE — replace with a real review] Transparent weighing, fair rates and a proper GST invoice. Our office clearance was done in a single visit."
+    },
+    {
+      "name": "Sample Client 3",
+      "role": "Plant Manager",
+      "company": "Company name",
+      "rating": "5",
+      "published": "No",
+      "text": "[SAMPLE — replace with a real review] They handled our cable and electrical scrap end-to-end, including loading. Payment was on time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you pay for old computers, servers and IT scrap?",
+      "a": "Yes. Working IT equipment and high-value scrap such as servers, laptops, networking gear, copper cables and PCBs have resale or material value. We inspect the lot (photos are enough to start) and share a fair buyback quote. Low-value or non-working items are taken for compliant recycling."
+    },
+    {
+      "q": "What is the minimum quantity for a pickup?",
+      "a": "We focus on business lots — offices, IT parks, factories and institutions. As a guide, we arrange free pickups for lots of roughly 50 kg or 10+ devices. Send us the details and we will confirm quickly."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "All of Delhi-NCR: Delhi, Gurugram, Noida, Greater Noida, Faridabad and Ghaziabad. Pan-India bulk lots can be arranged on request."
+    },
+    {
+      "q": "Will I get a GST invoice and recycling documentation?",
+      "a": "Yes. Every purchase is billed with a proper GST invoice. Material is routed to government-authorised recyclers and you receive the paperwork you need for your audit trail — including recycling / disposal certificates and, where applicable, data destruction certificates."
+    },
+    {
+      "q": "How is data on hard drives handled?",
+      "a": "Data-bearing devices are handled under a chain-of-custody. Drives can be wiped, degaussed or physically destroyed — including on-site at your premises on request — and a certificate of data destruction is issued."
+    },
+    {
+      "q": "How fast can you pick up?",
+      "a": "Most NCR requests get a call back within a few working hours and a pickup slot within 24–72 hours, depending on lot size and location."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "GST Registration",
+      "desc": "Registered business — every deal is backed by a valid GST invoice.",
+      "tag": "Verified",
+      "image": ""
+    },
+    {
+      "title": "Udyam (MSME) Registration",
+      "desc": "Registered with the Ministry of MSME, Government of India.",
+      "tag": "Govt. registered",
+      "image": ""
+    },
+    {
+      "title": "Authorised Recycler Network",
+      "desc": "Material is processed only through CPCB / SPCB-authorised e-waste recyclers.",
+      "tag": "E-Waste Rules 2022",
+      "image": ""
+    },
+    {
+      "title": "Recycling & Data Destruction Certificates",
+      "desc": "Issued per pickup for your compliance file and ESG reporting.",
+      "tag": "Per pickup",
+      "image": ""
+    }
+  ],
+  "analytics": {
+    "ga4": "",
+    "gads": "",
+    "gads_lead_label": "",
+    "gads_call_label": "",
+    "meta_pixel": ""
+  },
+  "notify_emails": "info@ewastebiz.in, ewastebizenterprises@gmail.com",
+  "autoreply_enabled": true,
+  "clients": [],
+  "gallery": [],
+  "partners": []
+}
