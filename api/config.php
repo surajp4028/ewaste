@@ -16,8 +16,9 @@ defined('RESEND_API_KEY') || define('RESEND_API_KEY', getenv('RESEND_API_KEY') ?
 defined('RESEND_FROM') || define('RESEND_FROM', 'E-WasteBiz Website <website@ewastebiz.in>');
 defined('LEAD_NOTIFY_TO') || define('LEAD_NOTIFY_TO', 'info@ewastebiz.in');
 defined('ADMIN_USERNAME') || define('ADMIN_USERNAME', 'admin');
-// No hash = no login possible until config.local.php is created.
-defined('ADMIN_PASSWORD_HASH') || define('ADMIN_PASSWORD_HASH', '');
+// Initial admin password (bcrypt hash only — the plain password is NOT in the repo).
+// Seeded into the database on first load; after that, change it from Admin > Settings.
+defined('ADMIN_PASSWORD_HASH') || define('ADMIN_PASSWORD_HASH', '$2y$10$.K/hWKBsOSt6YkPuVuS5D.8VlNUSjrWBj6v00YKgwjHfq37n4/Y5i');
 defined('DB_HOST') || define('DB_HOST', 'localhost');
 defined('DB_NAME') || define('DB_NAME', '');
 defined('DB_USER') || define('DB_USER', '');

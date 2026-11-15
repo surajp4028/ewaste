@@ -67,11 +67,26 @@ function db(): ?PDO {
             KEY idx_created (created_at),
             KEY idx_status (status)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+        db_seed($pdo);
     } catch (Throwable $e) {
         error_log('EWB DB error: ' . $e->getMessage());
         $pdo = null;
     }
     return $pdo;
+}
+
+/**
+ * First-run seed: copies the admin login and default site content into the DB.
+ * INSERT IGNORE means it only runs once — later admin changes are never overwritten.
+ */
+function db_seed(PDO $pdo): void {
+    $j = fn($d) => json_encode($d, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $st = $pdo->prepare('INSERT IGNORE INTO ewb_kv (k, v) VALUES (?, ?)');
+    if (ADMIN_PASSWORD_HASH !== '') {
+        $st->execute(['admin.json', $j(['username' => ADMIN_USERNAME, 'hash' => ADMIN_PASSWORD_HASH])]);
+    }
+    $site = file_read_json('site.json', []);
+    if ($site) $st->execute(['site.json', $j($site)]);
 }
 
 function file_read_json(string $name, $default = []) {
